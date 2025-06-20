@@ -18,6 +18,12 @@ This project was a fully bare-metal project. No libraries were used outside of t
 * Understanding how to read and understand key documentation, such as the reference manual, datasheet, and cortex generic user guide in order to write functions and familairize myself with the hardware.
 
 
+**Features**
+* Interrupt-based UART for real time troubleshooting with any device that supports serial communication.
+* Input capture mode with a general purpose timer used to avoid CPU overhead causing an incorrect time to be read. 
+* A simple LED strip to provide a clear indicator of how close the driver is to the end of the parking space.
+* A lightweight interrupt handler and minimal memory usage to allow for further development with few constraints.
+
 
 **Hardware Summary**
 
