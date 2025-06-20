@@ -1,0 +1,7 @@
+C:/Users/vthat/STM32CubeIDE/BareMetalUdemy/chip_headers/CMSIS/Include/core_cm3.h:1511:22:__NVIC_EnableIRQ	16	static
+../Src/uart.c:24:9:bufferpop	16	static
+../Src/uart.c:31:5:__io_putchar	16	static
+../Src/uart.c:40:6:bufferReset	4	static
+../Src/uart.c:47:5:EndCheck	4	static
+../Src/uart.c:60:13:uart2_set_baud	16	static
+../Src/uart.c:66:6:RXNEIEInterrupt	8	static

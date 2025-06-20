@@ -1,0 +1,5 @@
+../Src/main.c:20:5:main	3
+../Src/main.c:47:6:USART2_IRQHandler	4
+../Src/main.c:66:6:TIM4_IRQHandler	4
+../Src/main.c:92:6:printResult	2
+../Src/main.c:120:6:LEDUpdate	15
