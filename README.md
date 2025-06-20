@@ -1,2 +1,25 @@
 # BM_ParkingAssistant
-Baremetal project: an HC-SR04 sensor, STMf103RBT6 board, and simple LED strip are used to make a parking assistant
+
+**Summary**
+
+An HC-SR04 ultrasonic distance sensor is paired with a simple LED strip and an STM-F103RB MCU to create a parking assistant for parking in tight, constrained spaces, like a garage. The ultrasonic distance sensor, when mounted at the end of the parking space, records and transmits the distance between the car and the end of the parking space, which is then used to turn on the appropriate LEDs, indicating when the driver can move forward and when the driver must stop. Additionally, when no movement is detected for more than 5 seconds, the LED strip is powered off, and remains off until movement is detected in order to save power. The system also features UART support for debugging and testing.
+
+This project was a fully bare-metal project. No libraries were used outside of the cmsis library, which was used to make accessing hardware registers easier.
+
+
+**Purpose**
+
+* Develop a strong sense of familiarity with the interaction between code and hardware by abstracting away all libraries and relying solely on the lowest level code.
+* Get a fundamental understanding of interrupts and how they behave with the hardware
+* Understanding use-cases for components like timers, and become familiar using them
+* Understanding how to read and understand key documentation, such as the reference manual, datasheet, and cortex generic user guide in order to write functions and familairize myself with the hardware
+
+
+
+
+
+
+
+
+
+
